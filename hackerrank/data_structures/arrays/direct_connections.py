@@ -25,7 +25,8 @@ for s in scen:
     for i in range(N):
         for j in range(i, N):
             if i != j:
-                required += max(pop[i], pop[j]) * (abs(coords[i] - coords[j]))
+                required += max(pop[i]
+pop[j]) * (abs(coords[i] - coords[j]))
     print(required % 1000000007)
 
 

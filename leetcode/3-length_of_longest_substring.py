@@ -1,24 +1,54 @@
-#!/usr/bin/python3
+#Intstructions
+"""
+Given a string, find the length of the longest substring without repeating characters.
 
-def main():
+Examples:
 
-#    print(lengthOfLongestSubstring("abcabcbb"))
-#    print(lengthOfLongestSubstring("bbbbb"))
-#    print(lengthOfLongestSubstring("pwwkew"))
-#    print(lengthOfLongestSubstring("c"))
-#    print(lengthOfLongestSubstring("au"))
-#    print(lengthOfLongestSubstring("dvdf"))
-    print(lengthOfLongestSubstring("tmmzuxt"))
+Given "abcabcbb", the answer is "abc", which the length is 3.
 
-def lengthOfLongestSubstring(s):
-    window = set()
+Given "bbbbb", the answer is "b", with the length of 1.
+
+Given "pwwkew", the answer is "wke", with the length of 3.
+Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+"""
+
+
+class Solution:
+    # def lengthOfLongestSubstring_PRACTICE(s):
+    def lengthOfLongestSubstring(self, s):
+        return
+
+
+
+
+def lengthOfLongestSubstring_dict(s):
+# def lengthOfLongestSubstring(s):
+    start = end = 0
+    dict = {}
+    longest = 0
+    while end < len(s):
+        if dict.get(s[end]) is None:
+            dict[s[end]] = 1
+            end += 1
+            longest = max(longest, end - start)
+        else:
+            dict[s[start]] = None
+            start += 1
+    return longest
+
+def lengthOfLongestSubstring_lst(s):
+# def lengthOfLongestSubstring(s):
+    # window = set()
+    window = []
     start = end  = 0
     retval = 0
 
     while start < len(s) and end < len(s):
+    # while end < len(s):
         #    while chars are uniqe, continue expanding window by 1.
         if s[end] not in window:
-            window.add(s[end])
+            # window.add(s[end])
+            window.append(s[end])
             end += 1
             retval = max(retval, end - start)
         #    if char repeats, slide window right by one (don't expand)
@@ -27,43 +57,27 @@ def lengthOfLongestSubstring(s):
             start += 1
     return retval
 
-def lengthOfLongestSubstring2(s):
-    """
-    :type s: str
-    :rtype: int
-    """
-    max = 0
-    length = 0
-    i = 0
-    x = 0
-    sub = None
-
-    if all(x==s[0] for x in s):
-        return 1
-
-    if len(s) <= 1:
-        return len(s)
-    while i < len(s)+1:
-        sub = s[x:i+1]
-        for c in sub:
-            count = sub.count(c)
-            if count > 1:
-                length = len(sub)-1
-                x += 1; i = x;
-                if length > max:
-                    max = length
-                break
-        i += 1
-
-    length = len(sub)
-    if max == 0:
-        max = len(s)
-    if length > max:
-        max = length
-    return(max)
 
 
+def main():
 
+    print(Solution().lengthOfLongestSubstring("abcabcbb")) # 3
+    print(Solution().lengthOfLongestSubstring("bbbbb"))    # 1
+    print(Solution().lengthOfLongestSubstring("pwwkew"))   # 3
+    print(Solution().lengthOfLongestSubstring("c"))        # 1
+    print(Solution().lengthOfLongestSubstring("au"))       # 2
+    print(Solution().lengthOfLongestSubstring("dvdf"))     # 3
+    print(Solution().lengthOfLongestSubstring("tmmzuxt"))  # 5
+
+
+# LC input
+# "abcabcbb"
+# "bbbbb"
+# "pwwkew"
+# "c"
+# "au"
+# "dvdf"
+# "tmmzuxt"
 
 if __name__ == '__main__':
         main()

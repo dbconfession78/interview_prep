@@ -1,0 +1,40 @@
+"""
+#Find the missing letter
+
+Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.
+
+You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2.
+The array will always contain letters in only one case.
+
+Example:
+
+['a','b','c','d','f'] -> 'e'
+['O','Q','R','S'] -> 'P'
+(Use the English alphabet with 26 letters!)
+
+Have fun coding it and please don't forget to vote and rank this kata! :-)
+
+I have also created other katas. Take a look if you enjoyed this kata!
+
+"""
+
+class Solution():
+    def find_missing_letter(self, chars):
+        i = 1
+        while i < len(chars):
+            _this = chars[i]
+            _prev = chars[i - 1]
+            if ord(_prev) != ord(_this) - 1:
+                return chr(ord(_prev) + 1)
+            i += 1
+
+
+def main():
+    print(Solution().find_missing_letter(['a','b','c','d','f']))  # 'e'
+    print(Solution().find_missing_letter(['O','Q','R','S']))  # 'P'
+
+
+
+
+if __name__ == '__main__':
+    main()

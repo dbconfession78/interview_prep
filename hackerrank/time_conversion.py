@@ -12,7 +12,9 @@ def timeConversion(s):
             s[0] = str(int(s[0]) + 12)
     elif int(s[0]) == 12:
             s[0] = '00'
-    return '{}:{}:{}'.format(s[0], s[1], s[2])
+    return '{}:{}:{}'.format(s[0]
+s[1]
+s[2])
 
 
 s = input().strip()

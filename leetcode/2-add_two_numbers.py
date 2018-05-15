@@ -1,4 +1,16 @@
-#!/usr/bin/python3
+import sys
+# Instructions
+"""
+You are given two non-empty linked lists representing two
+non-negative integers. The digits are stored in reverse
+order and each of their nodes contain a single digit.
+Add the two numbers and return it as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+"""
 
 # Definition for singly-linked list.
 class ListNode():
@@ -37,26 +49,40 @@ class Solution:
                 l1 = l1.next
             if l2:
                 l2 = l2.next
+        print()
         return l3
 
+def main():
+    """Test cases"""
+    l1 = [2, 4, 3]
+    l2 = [5, 6, 4]
+    l3 = Solution().addTwoNumbers(build_ll(l1), build_ll(l2))
+    print_ll(l3)
 
-""" case 1 """
-l1 = ListNode(9)
-l1.next = ListNode(8)
-l2 = ListNode(8)
+    l1 = [9, 8]
+    l2 = [8]
+    l3 = Solution().addTwoNumbers(build_ll(l1), build_ll(l2))
+    print_ll(l3)
 
-""" case 2 """
-"""
-l1 = ListNode(2)
-l1.next = ListNode(4)
-l1.next.next = ListNode(3)
 
-l2 = ListNode(5)
-l2.next = ListNode(6)
-l2.next.next = ListNode(4)
-"""
-sol = Solution().addTwoNumbers(l1, l2)
-walk = sol
-while walk:
-    print(walk.val)
-    walk = walk.next
+def print_ll(root):
+    walk = root
+    while walk:
+        sys.stdout.write(f'{walk.val} ')
+        walk = walk.next
+    print()
+
+def build_ll(a_list):
+    root = None
+    for (i, elem) in enumerate(a_list):
+        new = ListNode(elem)
+        if root is None:
+            root = new
+            walk = root
+        else:
+            walk.next = ListNode(elem)
+            walk = walk.next
+    return root
+
+if __name__ == '__main__':
+    main()
