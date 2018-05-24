@@ -27,12 +27,42 @@ Constraints:
 [output] integer
 """
 
-# def deletion_distance_PRaCTICE(str1, str2):
+from sgk_test import test
+
+# def deletion_distance_PRACTICE(str1, str2):
 def deletion_distance(str1, str2):
     return
 
+# def deletion_distance_PASSED_ITER(str1, str2):
+def deletion_distance(str1, str2):
+    if str1 == str2:
+        return 0
 
-def deletion_distance_PASSED(str1, str2):
+    sl1 = list(str1)
+    sl2 = list(str2)
+
+    i = 0
+    if len(sl1) > len(sl2):
+        long = sl1
+        short = sl2
+    else:
+        long = sl2
+        short = sl1
+
+    while i < len(long) and long != short:
+        long_char = long[i]
+        if long_char in short:
+            idx = short.index(long_char)
+            short.pop(idx)
+            long.pop(i)
+
+        else:
+            i += 1
+
+
+    return (len(sl1) + len(sl2))
+
+def deletion_distance_PASSED_MEMO(str1, str2):
 # def deletion_distance(str1, str2):
     matrix = []
     matrix.append([x for x in range(len(str2)+1)])
@@ -49,4 +79,13 @@ def deletion_distance_PASSED(str1, str2):
                 matrix[i+1].append(matrix[i][j])
     return matrix[-1][-1]
 
-print(deletion_distance("dog", "frog"))
+test(3, deletion_distance("dog", "frog"))
+test(0, deletion_distance("", ""))
+test(3, deletion_distance("", "hit"))
+test(4, deletion_distance("neat", ""))
+test(3, deletion_distance("heat", "hit"))
+test(2, deletion_distance("hot", "not"))
+test(9, deletion_distance("some", "thing"))
+test(1, deletion_distance("abc", "adbc"))
+test(0, deletion_distance("awesome", "awesome"))
+test(2, deletion_distance("ab", "ba"))

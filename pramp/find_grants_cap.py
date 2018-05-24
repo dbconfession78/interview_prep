@@ -34,17 +34,21 @@ Constraints:
 [output] double
 """
 from sgk_test import test
-def find_grants_cap(grantsArray, newBudget):
-    x = 190 // len(grantsArray)
-    y = 0
-    g = 0
-    for i, elem in enumerate(grantsArray):
-        if elem > x:
-            grantsArray[i] = x
-            y += 1
-    if y > 0:
-        g = x // y
-    return x + g
+# def find_grants_cap_PRACTICE(grantsArray, newBudget):
+def find_grants_cap(grantsArray, newBudget): # [210,200,150,193,130,110,209,342,117], 1530
+    return
+
+
+def find_grants_cap_SOL(grantsArray, newBudget):
+# def find_grants_cap(grantsArray, newBudget):
+    grantsArray.sort()
+    i = 0
+    _len = len(grantsArray)
+    while i < _len and grantsArray[i] < float(newBudget) / (_len - i):
+        newBudget -= grantsArray[i]
+        i += 1
+    return newBudget / (_len - i)
+
 
 
 
@@ -52,7 +56,11 @@ def main():
     ######### TESTS ############
     test(47.0, find_grants_cap([2, 100, 50, 120, 1000], 190))
     test(1.5, find_grants_cap([2,4], 3))
-    test(None, find_grants_cap([2, 40, 110, 120, 1000], 190))
+    test(1.0, find_grants_cap([2,4,6], 3))
+    test(128.0, find_grants_cap([2,100,50,120,167], 400))
+    test(47.0, find_grants_cap([2,100,50,120,1000], 190))
+    test(23.8, find_grants_cap([21,100,50,120,130,110], 140))
+    test(211.0, find_grants_cap([210,200,150,193,130,110,209,342,117], 1530))
 
 
 if __name__ == "__main__":

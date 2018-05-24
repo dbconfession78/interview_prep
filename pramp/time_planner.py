@@ -1,13 +1,20 @@
 """
 Time Planner
 
-Implement a function meetingPlanner that given the availability, slotsA and slotsB, of two people and a meeting duration dur, returns the earliest time slot that works for both of them and is of duration dur. If there is no common time slot that satisfies the duration requirement, return null.
+Implement a function meetingPlanner that given the availability, slotsA and slotsB, of two people and a meeting
+duration dur, returns the earliest time slot that works for both of them and is of duration dur. If there is no common
+time slot that satisfies the duration requirement, return null.
 
-Time is given in a Unix format called Epoch, which is a nonnegative integer holding the number of seconds that have elapsed since 00:00:00 UTC, Thursday, 1 January 1970.
+Time is given in a Unix format called Epoch, which is a nonnegative integer holding the number of seconds that have
+elapsed since 00:00:00 UTC, Thursday, 1 January 1970.
 
-Each person’s availability is represented by an array of pairs. Each pair is an epoch array of size two. The first epoch in a pair represents the start time of a slot. The second epoch is the end time of that slot. The input variable dur is a positive integer that represents the duration of a meeting in seconds. The output is also a pair represented by an epoch array of size two.
+Each person’s availability is represented by an array of pairs. Each pair is an epoch array of size two. The first
+epoch in a pair represents the start time of a slot. The second epoch is the end time of that slot. The input variable
+ur is a positive integer that represents the duration of a meeting in seconds. The output is also a pair represented by
+an epoch array of size two.
 
-In your implementation assume that the time slots in a person’s availability are disjointed, i.e, time slots in a person’s availability don’t overlap. Further assume that the slots are sorted by slots’ start time.
+In your implementation assume that the time slots in a person’s availability are disjointed, i.e, time slots in a
+person’s availability don’t overlap. Further assume that the slots are sorted by slots’ start time.
 
 Implement an efficient solution and analyze its time and space complexities.
 
@@ -40,10 +47,33 @@ Constraints:
     [output] array.integer
 """
 
-test_no = 1
+from sgk_test import test
 # def meeting_planner_PRACTICE(slotsA, slotsB, dur):   #
 def meeting_planner(slotsA, slotsB, dur):
-    return
+    i = j = 0
+    lenA = len(slotsA)
+    lenB = len(slotsB)
+    while i < lenA and j < lenB:
+        gap = findGap(slotsA[i], slotsB[j])
+        if gap >= dur:
+            maxstart = max(slotsA[i][0], slotsB[j][0])
+            endtime = maxstart + dur
+            return [maxstart, endtime]
+        if slotsB[j][1] < slotsA[i][1]:
+            j += 1
+        else:
+            i += 1
+    return []
+
+def findGap(subA, subB):
+    Astart = subA[0]
+    Aend = subA[1]
+    Bstart = subB[0]
+    Bend = subB[1]
+    maxstart = max(Astart, Bstart)
+    minend = min(Aend, Bend)
+    gap = minend - maxstart
+    return gap
 
 def meeting_planner_PASSED(slotsA, slotsB, dur):   #
 # def meeting_planner(slotsA, slotsB, dur):   #
@@ -70,20 +100,10 @@ def meeting_planner_PASSED(slotsA, slotsB, dur):   #
     return []
 
 
-def test(sol, retval):
-    global test_no
-    print("{}. ".format(test_no), end="")
-    test_no += 1
-    if retval != sol:
-        print("FAIL", end=" ")
-    else:
-        print("OK", end=" ")
-    print(" - sol: {},  ret: {}".format(sol, retval))
-
 
 def main():
     ######### TESTS ############
-    test([], meeting_planner([[7,12]], [[2,11]], 5))
+    # test([], meeting_planner([[7,12]], [[2,11]], 5))
     test([6,11], meeting_planner([[6,12]], [[2,11]], 5))
     test([5,7], meeting_planner([[1,10]], [[2,3],[5,7]], 2))
     test([], meeting_planner([[0,5],[50,70],[120,125]], [[0,50]], 8))

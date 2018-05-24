@@ -44,8 +44,8 @@ def test(sol, retval):
 def find_pairs_with_given_difference(arr, k):
     return 0
 
-def find_pairs_with_given_difference_PASSED(arr, k):
-# def find_pairs_with_given_difference(arr, k):
+# def find_pairs_with_given_difference_PASSED(arr, k):
+def find_pairs_with_given_difference(arr, k):
     j = 1
     i = 0
     retval = []

@@ -1,3 +1,4 @@
+from sgk_test import test
 class Solution:
     def combine_words(self, a, b):
         if (a is None and b is None) or (a == '' and b == ''):
@@ -25,14 +26,14 @@ class Solution:
         return retval
 
 def main():
-    print(Solution().combine_words('ab', 'zsd'))  # azbsd
-    print(Solution().combine_words('abc', 'def'))  # adbecf
-    print(Solution().combine_words('', 'zsd'))
-    print(Solution().combine_words('abc', ''))
-    print(Solution().combine_words('', ''))
-    print(Solution().combine_words(None, 'zsd'))
-    print(Solution().combine_words('abc', None))
-    print(Solution().combine_words(None, None))
+    test("azbsd", Solution().combine_words('ab', 'zsd'))
+    test("adbecf", Solution().combine_words('abc', 'def'))
+    test("zsd", Solution().combine_words('', 'zsd'))
+    test("abc", Solution().combine_words('abc', ''))
+    test("", Solution().combine_words('', ''))
+    test("zsd", Solution().combine_words(None, 'zsd'))
+    test("abc", Solution().combine_words('abc', None))
+    test("", Solution().combine_words(None, None))
 
 
 

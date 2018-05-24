@@ -40,10 +40,28 @@ Constraints:
 [input] Dictionary dict
 [output] Dictionary
 """
-test_no = 1
+from sgk_test import test
 # def flatten_dictionary_PRACTICE(dictionary):
 def flatten_dictionary(dictionary):
-    return {}
+    retval = {}
+    for k, v in dictionary.items():
+        if type(v) == dict:
+            stk = [(k, v, "")]
+            while stk:
+                prev_key, dct, str = stk.pop()
+                for k2, v2 in dct.items():
+                    if type(v2) == dict:
+                        stk.append((k2, v2, prev_key + "."+k))
+                    else:
+                        stk.append((k2, v2, str + k))
+        else:
+            retval[k] = v
+    return retval
+
+
+
+
+
 
 def flatten_dictionary_PASSED(dictionary):
 # def flatten_dictionary(dictionary):
@@ -70,16 +88,6 @@ def flatten_dictionary_PASSED(dictionary):
         else:
             retval[k] = v
     return retval
-
-def test(sol, retval):
-    global test_no
-    print("{}. ".format(test_no), end="")
-    test_no += 1
-    if retval != sol:
-        print("FAIL", end=" ")
-    else:
-        print("OK", end=" ")
-    print(" - sol: {},  ret: {}".format(sol, retval))
 
 
 def main():

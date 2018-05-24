@@ -38,8 +38,25 @@ Constraints:
 # Akshay Agarwal
 
 # def calc_drone_min_energy_PRACTICE(route):
+def distance(p1, p2):
+  return sum((x - y)**2 for x, y in zip(p1, p2))
+
+
 def calc_drone_min_energy(route):
-    return
+  if len(route) < 3: return 0
+  total = 0
+  for i in xrange(1, len(route)):
+    prev = route[i - 1]
+    asc = route[i][-1] > prev[-1]
+    dsc = route[i][-1] < prev[-1]
+    if asc:
+      total += distance(route[i], prev)
+    elif dsc:
+      total -= distance(route[i], prev)
+  return total if total > 0 else 0
+
+route = [ [0,   2, 10], [3,   5,  0], [9,  20,  6], [10, 12, 15], [10, 10,  8] ]
+print
 
 def calc_drone_min_energy_PASSED(route):
 # def calc_drone_min_energy(route):

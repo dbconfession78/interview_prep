@@ -3,8 +3,10 @@ from heapq import heapify, heappop, heappush
 from sgk_test import test
 
 # def merge_k_lists_PRACTICE(lists):
+from heapq import heapify, heappop, heappush
 def merge_k_lists(lists):
     return
+
 
 def merge_k_lists_PASSED(lists):
 # def merge_k_lists(lists):

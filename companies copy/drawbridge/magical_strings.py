@@ -1,6 +1,6 @@
 # Instructions
 """
-Given an integer, n how many different strings of length n can be made witht the letters 'aeiou', while abiding by the following rules:
+Given an integer, n how many different strings of length n can be made with the letters 'aeiou', while abiding by the following rules:
     1. 'a' can be followed only by 'e'
     2. 'e' can be followed by 'a' or 'i'
     3. 'i' can be followd by 'a,'e,' 'o,' or 'u'

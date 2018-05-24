@@ -1,8 +1,4 @@
 test_no = 1
-# class SGKTest:
-#     def __init__(self):
-#         self.test_no = 1
-
 
 def test(sol, retval):
     global test_no

@@ -205,7 +205,7 @@ def print_linked_list(root):
         return
     sys.stdout.write('[')
     w = root
-    while w and w.val:
+    while w and w.val is not None:
         sys.stdout.write(str(w.val))
         if w.next:
             sys.stdout.write(', ')

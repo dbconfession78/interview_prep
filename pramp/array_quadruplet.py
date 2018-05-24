@@ -21,7 +21,8 @@ output: [0, 4, 7, 9] # The ordered quadruplet of (7, 4, 0, 9)
 test_no = 1
 # def find_array_quadruplet_PRACTICE(arr, s):
 def find_array_quadruplet(arr, s):
-    return
+   return
+
 
 
 
