@@ -4,22 +4,35 @@ swaps = 0
 actions = 0
 pivots = 0
 
+# def quicksort_PRACTICE(list):
+def quicksort(list):
+    if len(list) < 2:
+        return list
 
-def quicksort_comp(list):
+    under = quicksort([x for x in list if x < list[0]])
+    equal = quicksort([x for x in list if x == list[0]])
+    over = quicksort([x for x in list if x > list[0]])
+
+    return under + equal + over
+
+
+def quicksort_COMP(list):
+# def quicksort(list):
     """ sorts without need for helper, but returns a new list
     instead of altering the input list
     """
     if len(list) < 2:
         return list
 
-    left = quicksort_comp([x for x in list if x < list[0]])
-    equal = quicksort_comp([x for x in list if x == list[0]])
-    right = quicksort_comp([x for x in list if x > list[0]])
+    left = quicksort([x for x in list if x < list[0]])
+    equal = quicksort([x for x in list if x == list[0]])
+    right = quicksort([x for x in list if x > list[0]])
 
     return left + equal + right
 
 
-def quicksort(list):
+def quicksort_PASSED(list):
+# def quicksort(list):
     """
     recurisively sorts a list and returns the
     input list, sorted
@@ -2098,7 +2111,7 @@ def main():
             419.5603005151614, 765.367554522384, 291.4579016826354, 71.57984671803874, 147.83585388052]
     # print(list)
 
-    quicksort(list)
+    print(quicksort(list))
     # print(quick_sort_2(list))
 
 if __name__ == '__main__':
