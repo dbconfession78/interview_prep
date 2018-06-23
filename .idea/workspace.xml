@@ -5,45 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49e4d0d-d386-4ef3-bf60-89f4fcc57330" name="Default" comment="add twosum_v2.py">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HBS_interview_prep/check_cycle.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codefights/autocomplete.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codefights/compose_ranges.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codefights/expiring_patents.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codefights/house_robber.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codefights/map_decoding.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codefights/sum_subsets.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/companies copy/Geru/quotes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/daily_coding_problem/construct_pair.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/daily_coding_problem/find_first_missing_int.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/basic_regex_parser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/decrypt_message.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/index_equals_value_search.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/k_messed_array_sort.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/pancake_sort.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/reverse_words.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pramp/sales_path.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/holberton/menger_sponge.py" />
       <change beforePath="$PROJECT_DIR$/.idea/interview_prep.iml" afterPath="$PROJECT_DIR$/.idea/interview_prep.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/companies copy/Facebook/fibonacci.py" afterPath="$PROJECT_DIR$/companies copy/Facebook/fibonacci.py" />
-      <change beforePath="$PROJECT_DIR$/companies copy/Facebook/remove_invalid_parentheses.py" afterPath="$PROJECT_DIR$/companies copy/Facebook/remove_invalid_parentheses.py" />
-      <change beforePath="$PROJECT_DIR$/companies copy/drawbridge/magical_strings.py" afterPath="$PROJECT_DIR$/companies copy/drawbridge/magical_strings.py" />
-      <change beforePath="$PROJECT_DIR$/companies copy/techhire_careers/combine_words.py" afterPath="$PROJECT_DIR$/companies copy/techhire_careers/combine_words.py" />
-      <change beforePath="$PROJECT_DIR$/daily_coding_problem/merge_k_lists.py" afterPath="$PROJECT_DIR$/daily_coding_problem/merge_k_lists.py" />
-      <change beforePath="$PROJECT_DIR$/data_structures/linked_list.py" afterPath="$PROJECT_DIR$/data_structures/linked_list.py" />
-      <change beforePath="$PROJECT_DIR$/leetcode/15-3sum.py" afterPath="$PROJECT_DIR$/leetcode/15-3sum.py" />
-      <change beforePath="$PROJECT_DIR$/leetcode/198_house_robber.py" afterPath="$PROJECT_DIR$/leetcode/198_house_robber.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/array_quadruplet.py" afterPath="$PROJECT_DIR$/pramp/array_quadruplet.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/deletion_distance.py" afterPath="$PROJECT_DIR$/pramp/deletion_distance.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/drone_flight_planner.py" afterPath="$PROJECT_DIR$/pramp/drone_flight_planner.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/find_grants_cap.py" afterPath="$PROJECT_DIR$/pramp/find_grants_cap.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/find_pairs_with_specific_difference.py" afterPath="$PROJECT_DIR$/pramp/find_pairs_with_specific_difference.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/flatten_dictionary.py" afterPath="$PROJECT_DIR$/pramp/flatten_dictionary.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/merging_two_packages.py" afterPath="$PROJECT_DIR$/pramp/merging_two_packages.py" />
-      <change beforePath="$PROJECT_DIR$/pramp/time_planner.py" afterPath="$PROJECT_DIR$/pramp/time_planner.py" />
+      <change beforePath="$PROJECT_DIR$/holberton/slide_line.py" afterPath="$PROJECT_DIR$/holberton/slide_line.py" />
+      <change beforePath="$PROJECT_DIR$/index.jinja2" afterPath="$PROJECT_DIR$/index.jinja2" />
       <change beforePath="$PROJECT_DIR$/scratch.py" afterPath="$PROJECT_DIR$/scratch.py" />
       <change beforePath="$PROJECT_DIR$/scratch_2.py" afterPath="$PROJECT_DIR$/scratch_2.py" />
-      <change beforePath="$PROJECT_DIR$/sgk_test.py" afterPath="$PROJECT_DIR$/sgk_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +34,7 @@
     <SUITE FILE_PATH="coverage/interview_prep$twosum_v1.coverage" NAME="twosum_v1 Coverage Results" MODIFIED="1512082065078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$122_best_time_to_buy_and_sell_stock_2.coverage" NAME="122-best_time_to_buy_and_sell_stock_2 Coverage Results" MODIFIED="1515566247380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$638_shopping_offers.coverage" NAME="638_shopping_offers Coverage Results" MODIFIED="1520919980542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
-    <SUITE FILE_PATH="coverage/interview_prep$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1526681096807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview_prep$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1528769244419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview_prep$27_remove_element.coverage" NAME="27-remove-element Coverage Results" MODIFIED="1515545737089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/google_interview" />
     <SUITE FILE_PATH="coverage/interview_prep$sum_subsets.coverage" NAME="sum_subsets Coverage Results" MODIFIED="1526782863602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codefights" />
     <SUITE FILE_PATH="coverage/interview_prep$252_meeting_rooms.coverage" NAME="252_meeting_rooms Coverage Results" MODIFIED="1517266599775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
@@ -197,6 +166,7 @@
     <SUITE FILE_PATH="coverage/interview_prep$203_remove_linked_list_elements.coverage" NAME="203_remove_linked_list_elements Coverage Results" MODIFIED="1522134439210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$time_planner.coverage" NAME="time_planner Coverage Results" MODIFIED="1527129692462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pramp" />
     <SUITE FILE_PATH="coverage/interview_prep$23_merge_k_lists.coverage" NAME="23-merge_k_lists Coverage Results" MODIFIED="1514336796599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/interview_prep$menger_sponge.coverage" NAME="menger_sponge Coverage Results" MODIFIED="1529379622013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/holberton" />
     <SUITE FILE_PATH="coverage/interview_prep$0014_sudoku_solution_validstor.coverage" NAME="0014_sudoku_solution_validstor Coverage Results" MODIFIED="1518481860426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_wars" />
     <SUITE FILE_PATH="coverage/interview_prep$169_majority_elemnet.coverage" NAME="169-majority_elemnet Coverage Results" MODIFIED="1515561565766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$5_longest_palindromic_string.coverage" NAME="5-longest_palindromic_string Coverage Results" MODIFIED="1519594366443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
@@ -278,7 +248,7 @@
     <SUITE FILE_PATH="coverage/interview_prep$658_find_k_closest_elements.coverage" NAME="658_find_k_closest_elements Coverage Results" MODIFIED="1521231314753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$combine_words.coverage" NAME="combine_words Coverage Results" MODIFIED="1526752595195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/companies copy/techhire_careers" />
     <SUITE FILE_PATH="coverage/interview_prep$word_count_engine.coverage" NAME="word_count_engine Coverage Results" MODIFIED="1517353970369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pramp" />
-    <SUITE FILE_PATH="coverage/interview_prep$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1525924352176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview_prep$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1529200580906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview_prep$blob_boundry.coverage" NAME="blob_boundry Coverage Results" MODIFIED="1527104885768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1" />
     <SUITE FILE_PATH="coverage/interview_prep$373_k_smallest_pairs.coverage" NAME="373_k_smallest_pairs Coverage Results" MODIFIED="1515966607930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$200_number_of_islands.coverage" NAME="200_number_of_islands Coverage Results" MODIFIED="1519939892277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
@@ -288,7 +258,7 @@
     <SUITE FILE_PATH="coverage/interview_prep$0022_find_the_unknown_digit.coverage" NAME="0022_find_the_unknown_digit Coverage Results" MODIFIED="1518827948220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_wars" />
     <SUITE FILE_PATH="coverage/interview_prep$731_my_calendar_2.coverage" NAME="731_my_calendar_2 Coverage Results" MODIFIED="1519440588556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$369_plus_one_linked_list.coverage" NAME="369-plus_one_linked_list Coverage Results" MODIFIED="1517024767419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
-    <SUITE FILE_PATH="coverage/interview_prep$bst_successor_search.coverage" NAME="bst_successor_search Coverage Results" MODIFIED="1525586822490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pramp" />
+    <SUITE FILE_PATH="coverage/interview_prep$bst_successor_search.coverage" NAME="bst_successor_search Coverage Results" MODIFIED="1528145826447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pramp" />
     <SUITE FILE_PATH="coverage/interview_prep$remove_from_list.coverage" NAME="remove_from_list Coverage Results" MODIFIED="1521603503292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codefights" />
     <SUITE FILE_PATH="coverage/interview_prep$map_decoding.coverage" NAME="map_decoding Coverage Results" MODIFIED="1527027864463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codefights" />
     <SUITE FILE_PATH="coverage/interview_prep$297_serialize_and_deserialize_binary_tree.coverage" NAME="297_serialize_and_deserialize_binary_tree Coverage Results" MODIFIED="1516245201048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
@@ -315,6 +285,7 @@
     <SUITE FILE_PATH="coverage/interview_prep$422_valid_word_square.coverage" NAME="422_valid_word_square Coverage Results" MODIFIED="1517980030300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$171_excel_sheet_column_number.coverage" NAME="171_excel_sheet_column_number Coverage Results" MODIFIED="1516251345391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$226_invert_binary_tree.coverage" NAME="226_invert_binary_tree Coverage Results" MODIFIED="1520981168987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/interview_prep$slide_line.coverage" NAME="slide_line Coverage Results" MODIFIED="1529266346710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/holberton" />
     <SUITE FILE_PATH="coverage/interview_prep$257_binary_tree_paths.coverage" NAME="257-binary_tree_paths Coverage Results" MODIFIED="1512709503445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/depth_first_search" />
     <SUITE FILE_PATH="coverage/interview_prep$636_exclusive_time_of_functions.coverage" NAME="636_exclusive_time_of_functions Coverage Results" MODIFIED="1516261214615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$farming_resources.coverage" NAME="farming_resources Coverage Results" MODIFIED="1525139008816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codefights" />
@@ -369,8 +340,8 @@
     <SUITE FILE_PATH="coverage/interview_prep$0019_human_readable_duration_format.coverage" NAME="0019_human_readable_duration_format Coverage Results" MODIFIED="1518507069223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_wars" />
     <SUITE FILE_PATH="coverage/interview_prep$0017_simple_pig_latin.coverage" NAME="0017_simple_pig_latin Coverage Results" MODIFIED="1518495517808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_wars" />
     <SUITE FILE_PATH="coverage/interview_prep$matrix_check.coverage" NAME="matrix_check Coverage Results" MODIFIED="1523827478004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codefights" />
-    <SUITE FILE_PATH="coverage/interview_prep$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1513201375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/interview_prep$efficient_road_network.coverage" NAME="efficient_road_network Coverage Results" MODIFIED="1522567235258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codefights" />
+    <SUITE FILE_PATH="coverage/interview_prep$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1528428870141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/interview_prep$3_1_three_in_one.coverage" NAME="3.1-three_in_one Coverage Results" MODIFIED="1515363068854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cracking_the_coding_interview_book" />
     <SUITE FILE_PATH="coverage/interview_prep$139_word_break_1.coverage" NAME="139_word_break_1 Coverage Results" MODIFIED="1516264797196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/interview_prep$65_valid_number.coverage" NAME="65_valid_number Coverage Results" MODIFIED="1517564648298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
@@ -400,63 +371,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pancake_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pramp/pancake_sort.py">
+      <file leaf-file-name="scratch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template_DONT_EDIT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template_DONT_EDIT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compose_ranges.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codefights/compose_ranges.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time_planner.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pramp/time_planner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <element signature="e#2549#3199#0" expanded="false" />
+                <element signature="e#308#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map_decoding.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codefights/map_decoding.py">
+      <file leaf-file-name="menger_sponge.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/holberton/menger_sponge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="146" column="42" lean-forward="true" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blob_boundry.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1/blob_boundry.py">
+      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2420">
-              <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sgk_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgk_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+              <folding>
+                <element signature="e#401#505#1" expanded="false" />
+                <element signature="e#807#887#1" expanded="false" />
+                <element signature="e#966#992#0" expanded="false" />
+                <element signature="e#1462#1914#0" expanded="false" />
+                <element signature="e#1513#1546#0" expanded="false" />
+                <element signature="e#1607#1640#0" expanded="false" />
+                <element signature="e#1710#1914#0" expanded="false" />
+                <element signature="e#1710#1722#0" expanded="false" />
+                <element signature="e#2185#2191#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structures/binary_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -474,11 +455,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>next</find>
-      <find>post</find>
-      <find>impass</find>
-      <find>alliance</find>
-      <find>test_no</find>
       <find>seen</find>
       <find>path</find>
       <find>seen.add</find>
@@ -504,6 +480,11 @@
       <find>date</find>
       <find>fibonacci</find>
       <find>fib</find>
+      <find>there</find>
+      <find>mn</find>
+      <find>del_idx</find>
+      <find>quick_sort</find>
+      <find>merge</find>
     </findStrings>
     <replaceStrings>
       <replace>longestPalindrome</replace>
@@ -544,13 +525,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pramp/bst_successor_search.py" />
-        <option value="$PROJECT_DIR$/leetcode/121-best_time_to_buy_and_sell_stock.py" />
-        <option value="$PROJECT_DIR$/scratch_4.py" />
-        <option value="$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1/blob_boundry.py" />
-        <option value="$PROJECT_DIR$/leetcode/680_valid_palindrome_2.py" />
-        <option value="$PROJECT_DIR$/pramp/shifted_array_search.py" />
-        <option value="$PROJECT_DIR$/cracking_the_coding_interview_book/1.5_one_away.py" />
         <option value="$PROJECT_DIR$/pramp/get_diff_number.py" />
         <option value="$PROJECT_DIR$/codefights/climbing_staircase.py" />
         <option value="$PROJECT_DIR$/pramp/smallest_substring_of_all_characters.py" />
@@ -569,7 +543,6 @@
         <option value="$PROJECT_DIR$/data_structures/linked_list.py" />
         <option value="$PROJECT_DIR$/HBS_interview_prep.py" />
         <option value="$PROJECT_DIR$/HBS_interview_prep/check_cycle.py" />
-        <option value="$PROJECT_DIR$/scratch.py" />
         <option value="$PROJECT_DIR$/pramp/drone_flight_planner.py" />
         <option value="$PROJECT_DIR$/pramp/decrypt_message.py" />
         <option value="$PROJECT_DIR$/pramp/array_quadruplet.py" />
@@ -586,7 +559,6 @@
         <option value="$PROJECT_DIR$/pramp/deletion_distance.py" />
         <option value="$PROJECT_DIR$/companies copy/Facebook/fibonacci.py" />
         <option value="$PROJECT_DIR$/leetcode/198_house_robber.py" />
-        <option value="$PROJECT_DIR$/scratch_2.py" />
         <option value="$PROJECT_DIR$/pramp/flatten_dictionary.py" />
         <option value="$PROJECT_DIR$/companies copy/drawbridge/magical_strings.py" />
         <option value="$PROJECT_DIR$/codefights/house_robber.py" />
@@ -595,6 +567,15 @@
         <option value="$PROJECT_DIR$/pramp/time_planner.py" />
         <option value="$PROJECT_DIR$/codefights/compose_ranges.py" />
         <option value="$PROJECT_DIR$/pramp/find_grants_cap.py" />
+        <option value="$PROJECT_DIR$/../okcapp/okc_py/okc_py.py" />
+        <option value="$PROJECT_DIR$/index.jinja2" />
+        <option value="$PROJECT_DIR$/codefights/delivery_fee.py" />
+        <option value="$PROJECT_DIR$/pramp/bst_successor_search.py" />
+        <option value="$PROJECT_DIR$/sort/quick_sort.py" />
+        <option value="$PROJECT_DIR$/scratch.py" />
+        <option value="$PROJECT_DIR$/scratch_2.py" />
+        <option value="$PROJECT_DIR$/holberton/slide_line.py" />
+        <option value="$PROJECT_DIR$/holberton/menger_sponge.py" />
       </list>
     </option>
   </component>
@@ -604,7 +585,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -646,7 +627,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -657,28 +637,13 @@
             <path>
               <item name="interview_prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview_prep" type="462c0819:PsiDirectoryNode" />
-              <item name="companies copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview_prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview_prep" type="462c0819:PsiDirectoryNode" />
-              <item name="companies copy" type="462c0819:PsiDirectoryNode" />
-              <item name="Shoregroup_Associates_H1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview_prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview_prep" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview_prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview_prep" type="462c0819:PsiDirectoryNode" />
-              <item name="pramp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -688,19 +653,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/holberton" />
+      <recent name="$PROJECT_DIR$/codefights" />
+      <recent name="$PROJECT_DIR$/HBS_interview_prep" />
+      <recent name="$PROJECT_DIR$/companies copy/Facebook" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/companies copy/Decathlon" />
       <recent name="$PROJECT_DIR$/companies" />
       <recent name="$PROJECT_DIR$/leetcode" />
       <recent name="$PROJECT_DIR$/Companies" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/codefights" />
-      <recent name="$PROJECT_DIR$/HBS_interview_prep" />
-      <recent name="$PROJECT_DIR$/companies copy/Facebook" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/../q1.py" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -715,7 +680,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find_grants_cap">
+  <component name="RunManager" selected="Python.menger_sponge">
     <configuration name="0023_befungee_interpreter" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -735,96 +700,96 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="blob_boundry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="menger_sponge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/holberton" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview_prep" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1/blob_boundry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/holberton/menger_sponge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="compose_ranges" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codefights" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview_prep" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codefights/compose_ranges.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/quick_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="find_grants_cap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pramp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview_prep" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pramp/find_grants_cap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pancake_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pramp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview_prep" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pramp/pancake_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="time_planner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="slide_line" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pramp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/holberton" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview_prep" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pramp/time_planner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/holberton/slide_line.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -832,19 +797,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.0023_befungee_interpreter" />
-      <item index="1" class="java.lang.String" itemvalue="Python.time_planner" />
-      <item index="2" class="java.lang.String" itemvalue="Python.blob_boundry" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pancake_sort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.find_grants_cap" />
-      <item index="5" class="java.lang.String" itemvalue="Python.compose_ranges" />
+      <item index="1" class="java.lang.String" itemvalue="Python.scratch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.quick_sort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.scratch_2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.slide_line" />
+      <item index="5" class="java.lang.String" itemvalue="Python.menger_sponge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.find_grants_cap" />
-        <item index="1" class="java.lang.String" itemvalue="Python.compose_ranges" />
-        <item index="2" class="java.lang.String" itemvalue="Python.time_planner" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pancake_sort" />
-        <item index="4" class="java.lang.String" itemvalue="Python.blob_boundry" />
+        <item index="0" class="java.lang.String" itemvalue="Python.menger_sponge" />
+        <item index="1" class="java.lang.String" itemvalue="Python.slide_line" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scratch_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.scratch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.quick_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -882,32 +847,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.495116" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.495116" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.50427353" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553614" sideWeight="0.4576098" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="370" height="850" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2512783" sideWeight="0.48068106" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299285" sideWeight="0.497558" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724616" sideWeight="0.3208896" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31358528" sideWeight="0.504884" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09134234" sideWeight="0.4614221" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553614" sideWeight="0.4576098" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="370" height="850" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2512783" sideWeight="0.47577444" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943755" sideWeight="0.497558" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.31969818" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250548" sideWeight="0.4785544" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09253376" sideWeight="0.4614221" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49467275" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32213295" sideWeight="0.42970613" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724616" sideWeight="0.6791104" order="12" side_tool="true" content_ui="tabs" x="1" y="35" width="571" height="927" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250548" sideWeight="0.5214456" order="11" side_tool="false" content_ui="tabs" x="1" y="35" width="571" height="927" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1984127" sideWeight="0.5385779" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32277834" sideWeight="0.43101344" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1047,23 +1011,41 @@
           <line>9</line>
           <option name="timeStamp" value="8557" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/holberton/menger_sponge.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="8730" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-      <option name="time" value="8565" />
+      <option name="time" value="8731" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i == 2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>del_idx == 3</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>del_idx == 4</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>deli_idx == 3</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>test_no == 14</expression-string>
         <language-id>Python</language-id>
@@ -1094,21 +1076,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>test_no == 4</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i == 5 and j == 0</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>x == 1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
       <expression>
@@ -1131,63 +1098,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pramp/merging_two_packages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="193" column="19" lean-forward="true" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HBS_interview_prep.py" />
-    <entry file="file://$PROJECT_DIR$/HBS_interview_prep/check_cycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="1623" column="16" lean-forward="true" selection-start-line="1623" selection-start-column="16" selection-end-line="1623" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pramp/decrypt_message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/companies copy/techhire_careers/combine_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/companies copy/techhire_careers/add_holes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/15-3sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pramp/array_quadruplet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -1251,13 +1161,6 @@
     <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py" />
     <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py" />
     <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/_strptime.py" />
-    <entry file="file://$PROJECT_DIR$/../okcapp/okc_py/okc_py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codefights/expiring_patents.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1314,25 +1217,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/198_house_robber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,15 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scratch_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py" />
     <entry file="file://$PROJECT_DIR$/companies copy/Scality/TrueAbility_screening.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1378,7 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,7 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,7 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,35 +1283,17 @@
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1/blob_boundry.py">
+    <entry file="file://$PROJECT_DIR$/pramp/find_grants_cap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgk_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template_DONT_EDIT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pramp/pancake_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="180">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,6 +1305,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pramp/time_planner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codefights/map_decoding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1455,23 +1320,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pramp/find_grants_cap.py">
+    <entry file="file://$PROJECT_DIR$/companies copy/Shoregroup_Associates_H1/blob_boundry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="821">
+          <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../okcapp/okc_py/okc_py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="330" column="43" lean-forward="true" selection-start-line="330" selection-start-column="43" selection-end-line="330" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codefights/delivery_fee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pramp/bst_successor_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="68" column="58" lean-forward="false" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled/venv/lib/python3.6/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="623" column="37" lean-forward="true" selection-start-line="623" selection-start-column="37" selection-end-line="623" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled/venv/lib/python3.6/site-packages/twitter/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="279" column="0" lean-forward="true" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_DONT_EDIT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holberton/slide_line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
-            <element signature="e#1650#1913#0" expanded="false" />
+            <element signature="e#4208#5357#0" expanded="false" />
+            <element signature="e#4290#5183#0" expanded="false" />
+            <element signature="e#4323#4443#0" expanded="false" />
+            <element signature="e#4362#4443#0" expanded="false" />
+            <element signature="e#4493#4874#0" expanded="false" />
+            <element signature="e#4562#4778#0" expanded="false" />
+            <element signature="e#4822#4874#0" expanded="false" />
+            <element signature="e#4909#5164#0" expanded="false" />
+            <element signature="e#4948#5164#0" expanded="false" />
+            <element signature="e#5225#5337#0" expanded="false" />
+            <element signature="e#5275#5337#0" expanded="false" />
+            <element signature="e#5400#6679#0" expanded="false" />
+            <element signature="e#5491#6421#0" expanded="false" />
+            <element signature="e#5578#5700#0" expanded="false" />
+            <element signature="e#5617#5700#0" expanded="false" />
+            <element signature="e#5750#6121#0" expanded="false" />
+            <element signature="e#5810#6026#0" expanded="false" />
+            <element signature="e#6069#6121#0" expanded="false" />
+            <element signature="e#6156#6402#0" expanded="false" />
+            <element signature="e#6186#6402#0" expanded="false" />
+            <element signature="e#6454#6554#0" expanded="false" />
+            <element signature="e#6506#6554#0" expanded="false" />
+            <element signature="e#6583#6601#0" expanded="false" />
+            <element signature="e#6740#7804#0" expanded="false" />
+            <element signature="e#6796#7368#0" expanded="false" />
+            <element signature="e#6830#7228#0" expanded="false" />
+            <element signature="e#6880#7228#0" expanded="false" />
+            <element signature="e#6919#7032#0" expanded="false" />
+            <element signature="e#7083#7154#0" expanded="false" />
+            <element signature="e#7263#7368#0" expanded="false" />
+            <element signature="e#7395#7773#0" expanded="false" />
+            <element signature="e#7463#7773#0" expanded="false" />
+            <element signature="e#7500#7599#0" expanded="false" />
+            <element signature="e#7642#7709#0" expanded="false" />
+            <element signature="e#7874#8179#0" expanded="false" />
+            <element signature="e#7905#8029#0" expanded="false" />
+            <element signature="e#7937#8005#0" expanded="false" />
+            <element signature="e#8057#8179#0" expanded="false" />
+            <element signature="e#8087#8155#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pramp/time_planner.py">
+    <entry file="file://$PROJECT_DIR$/sgk_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
-            <element signature="e#2549#3199#0" expanded="false" />
+            <element signature="e#401#505#1" expanded="false" />
+            <element signature="e#807#887#1" expanded="false" />
+            <element signature="e#966#992#0" expanded="false" />
+            <element signature="e#1462#1914#0" expanded="false" />
+            <element signature="e#1513#1546#0" expanded="false" />
+            <element signature="e#1607#1640#0" expanded="false" />
+            <element signature="e#1710#1914#0" expanded="false" />
+            <element signature="e#1710#1722#0" expanded="false" />
+            <element signature="e#2185#2191#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#308#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holberton/menger_sponge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="146" column="42" lean-forward="true" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

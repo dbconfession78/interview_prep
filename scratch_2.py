@@ -5,7 +5,6 @@ def func():
 
 
 
-
 def main():
     ######### TESTS ############
     test(None, func())
