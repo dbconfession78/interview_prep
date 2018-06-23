@@ -4,18 +4,11 @@ Given an integer, convert it to a roman numeral.
 
 Input is guaranteed to be within the range from 1 to 3999.
 """
+from sgk_test import test
 class Solution:
     # def intToRoman_PRACTICE(self, num):
     def intToRoman(self, num):
-        INTS = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
-        ROMS = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
-
-        retval = ""
-        for i, x in enumerate(INTS):
-            x = num // INTS[i]
-            retval += (ROMS[i] * x)
-            num = num % INTS[i]
-        return retval
+        return
 
 
 
@@ -39,10 +32,11 @@ class Solution:
 
 
 def main():
-    print(Solution().intToRoman(1))     # "I"
-    print(Solution().intToRoman(567))   # "DLXVII"
-    print(Solution().intToRoman(3999))  # "MMMCMXCIX"
-    print(Solution().intToRoman(2))     # "II"
+    test("I", Solution().intToRoman(1))
+    test("DLXVII", Solution().intToRoman(567))
+    test("MMMCMXCIX", Solution().intToRoman(3999))
+    test("II", Solution().intToRoman(2))
+    test("IV", Solution().intToRoman(4))
 
 # LC input
 # 1

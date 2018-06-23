@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 from sys import argv
 from os import path
-
-
+from sgk_test import test
 class Solution:
-    def romanToInt(self, s):
+    # def romanToInt_PRACTICE(self, s):
+    def romanToInt(self, s):    # DCXXI
+        return
+
+    def romanToInt_PASSED(self, s):
+    # def romanToInt(self, s):
         """
         :type s: str
         :rtype: int
@@ -23,16 +27,11 @@ class Solution:
 
 
 def main():
-    # if len(argv) < 2:
-    #     print('USAGE: ./{} <roman numeral>'.format(path.basename(__file__)))
-    #     return
-    # print(Solution().romanToInt(argv[1]))
-
-    """Test cases"""
-    print(Solution().romanToInt("DCXXI"))  # 621
-    print(Solution().romanToInt("D"))  # 500
-    print(Solution().romanToInt("IXVC"))  # 104
-    print(Solution().romanToInt("IVXLCDM"))  # 334
+    ###### TEST CASES ######
+    test(621, Solution().romanToInt("DCXXI"))  # 621
+    test(500, Solution().romanToInt("D"))  # 500
+    test(104, Solution().romanToInt("IXVC"))  # 104
+    test(334, Solution().romanToInt("IVXLCDM"))  # 334
 
 
 

@@ -12,14 +12,10 @@ Given "pwwkew", the answer is "wke", with the length of 3.
 Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 """
 
-
-class Solution:
-    # def lengthOfLongestSubstring_PRACTICE(s):
-    def lengthOfLongestSubstring(self, s):
-        return
-
-
-
+from sgk_test import test
+# def lengthOfLongestSubstring_PRACTICE(s):
+def lengthOfLongestSubstring(s): # s:
+    return
 
 def lengthOfLongestSubstring_dict(s):
 # def lengthOfLongestSubstring(s):
@@ -58,16 +54,15 @@ def lengthOfLongestSubstring_lst(s):
     return retval
 
 
-
 def main():
-
-    print(Solution().lengthOfLongestSubstring("abcabcbb")) # 3
-    print(Solution().lengthOfLongestSubstring("bbbbb"))    # 1
-    print(Solution().lengthOfLongestSubstring("pwwkew"))   # 3
-    print(Solution().lengthOfLongestSubstring("c"))        # 1
-    print(Solution().lengthOfLongestSubstring("au"))       # 2
-    print(Solution().lengthOfLongestSubstring("dvdf"))     # 3
-    print(Solution().lengthOfLongestSubstring("tmmzuxt"))  # 5
+    ###### TEST ######
+    test(3, lengthOfLongestSubstring("abcabcbb"))
+    test(1, lengthOfLongestSubstring("bbbbb"))
+    test(3, lengthOfLongestSubstring("pwwkew"))
+    test(1, lengthOfLongestSubstring("c"))
+    test(2, lengthOfLongestSubstring("au"))
+    test(3, lengthOfLongestSubstring("dvdf"))
+    test(5, lengthOfLongestSubstring("tmmzuxt"))
 
 
 # LC input

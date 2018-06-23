@@ -1,4 +1,5 @@
 import sys
+from sgk_test import test
 # Instructions
 """
 You are given two non-empty linked lists representing two
@@ -19,8 +20,14 @@ class ListNode():
         self.next = None
 
 
+
 class Solution:
+    # def addTwoNumbers_PRACTICE(self, l1, l2):
     def addTwoNumbers(self, l1, l2):
+        return
+
+    def addTwoNumbers_PASSED(self, l1, l2):
+    # def addTwoNumbers(self, l1, l2):
         """
         :type l1: ListNode
         :type l2: ListNode
@@ -54,15 +61,9 @@ class Solution:
 
 def main():
     """Test cases"""
-    l1 = [2, 4, 3]
-    l2 = [5, 6, 4]
-    l3 = Solution().addTwoNumbers(build_ll(l1), build_ll(l2))
-    print_ll(l3)
-
-    l1 = [9, 8]
-    l2 = [8]
-    l3 = Solution().addTwoNumbers(build_ll(l1), build_ll(l2))
-    print_ll(l3)
+    test([7,0,8], Solution().addTwoNumbers(build_ll([2, 4, 3]), build_ll([5, 6, 4])))
+    test([7, 9], Solution().addTwoNumbers(build_ll([9, 8]), build_ll([8])))
+    test([0, 1], Solution().addTwoNumbers(build_ll([5]), build_ll([5])))
 
 
 def print_ll(root):

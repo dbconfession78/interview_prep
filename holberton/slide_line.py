@@ -25,12 +25,12 @@ def slide_left(line, size):
         elif searching == 1:
             searching = 0
             if i < (size - 1):
-                next_idx = get_idx_of_next_non_zero(line, i + 1, size, 1)
+                # next_idx = get_idx_of_next_non_zero(line, i + 1, size, 1)
+                next_idx = get_idx_of_next_non_zero(line, i, size, 1)
                 ret = merge(mark, i, line, next_idx, 1)
                 i = ret[0]
                 mark = ret[1]
                 line = ret[2]
-
             else:
                 line[mark] = line[i]
                 line[i] = 0
@@ -111,7 +111,7 @@ def merge(mark, i, line, next_idx, direction):
                 line[i] = line[i] + line[next_idx]
                 mark = i - 1
             line[next_idx] = 0
-            i = next_idx
+            # i = next_idx
     return (i, mark, line)
 
 
