@@ -55,6 +55,7 @@ def slide_line(d, str):
                 else:
                     i -= 1
 
+<<<<<<< HEAD
         if i != size and i < 0:
             i = 0
             if mark < size and mark > -1 and mark != 0:
@@ -73,6 +74,27 @@ def slide_line(d, str):
                     if mark == -1:
                         mark = i
                 i += 1
+=======
+def slide_left(line, size):
+    searching = 0
+    mark = -1
+    i = 0
+    while i < size:
+        if line[i] == 0:
+            if searching == 0:
+                searching = 1
+                if mark == -1:
+                    mark = i
+        elif searching == 1:
+            searching = 0
+            if i < (size - 1):
+                # next_idx = get_idx_of_next_non_zero(line, i + 1, size, 1)
+                next_idx = get_idx_of_next_non_zero(line, i, size, 1)
+                ret = merge(mark, i, line, next_idx, 1)
+                i = ret[0]
+                mark = ret[1]
+                line = ret[2]
+>>>>>>> 0be48e26caab2bdee4e570b5a3cd4b3207a8fed5
             else:
                 if searching == 1:
                     searching = 0
@@ -232,7 +254,27 @@ def slide_line_1(d, str):
                     mark = i - 1
                 line[next_idx] = 0
                 i = next_idx
+<<<<<<< HEAD
         return (i, mark, line)
+=======
+        else:
+            line[mark] = line[i]
+            line[i] = 0
+            # i = next_idx
+            mark += 1
+    else:
+        if next_idx < size and (line[next_idx] == line[i]):
+            if mark != size:
+                line[mark] = line[i] + line[next_idx]
+                line[i] = 0
+                mark -= 1
+            else:
+                line[i] = line[i] + line[next_idx]
+                mark = i - 1
+            line[next_idx] = 0
+            # i = next_idx
+    return (i, mark, line)
+>>>>>>> 0be48e26caab2bdee4e570b5a3cd4b3207a8fed5
 
     def get_idx_of_next_non_zero(line, i, size, direction):
         if direction == 1:

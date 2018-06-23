@@ -26,8 +26,8 @@ from collections import Counter
 from collections import defaultdict
 test_no = 1
 class Solution():
-    # def get_shortest_unique_substring_PRACTICE(self, arr, str):
-    def get_shortest_unique_substring(self, arr, str):
+    def get_shortest_unique_substring_PRACTICE(self, arr, str):
+    # def get_shortest_unique_substring(self, arr, str):
         arr_len = len(arr)
         str_len = len(str)
 
@@ -147,9 +147,9 @@ def test(sol, retval):
     print(" - sol: {},  ret: {}".format(sol, retval))
 
 def main():
-    test("", Solution().get_shortest_unique_substring(['A'], ''))  # ""
-    test("", Solution().get_shortest_unique_substring(['A'], 'B'))  # ""
-    test("A", Solution().get_shortest_unique_substring(['A'], 'A'))  # "A"
+    # test("", Solution().get_shortest_unique_substring(['A'], ''))  # ""
+    # test("", Solution().get_shortest_unique_substring(['A'], 'B'))  # ""
+    # test("A", Solution().get_shortest_unique_substring(['A'], 'A'))  # "A"
     test("BANC", Solution().get_shortest_unique_substring(["A","B","C"],"ADOBECODEBANCDDD"))   # "BANC"
     test("KADOBECODEBANCDDDEI", Solution().get_shortest_unique_substring(["A","B","C","E","K","I"], "KADOBECODEBANCDDDEI"))
     test("zyx", Solution().get_shortest_unique_substring(['x', 'y', 'z'], 'xyyzyzyx'))  # "zyx" <-- Example

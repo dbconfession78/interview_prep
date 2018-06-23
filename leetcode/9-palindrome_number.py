@@ -2,15 +2,16 @@
 """
 Determine whether an integer is a palindrome. Do this without extra space.
 """
+from sgk_test import test
 class Solution(object):
-    # 11.5 min
     # def isPalindrome_PRACTICE(self, x):
     def isPalindrome(self, x):
         return
 
 
-    # def isPalindrome_PASSED(self, x):
-    def isPalindrome(self, x):
+
+    def isPalindrome_PASSED(self, x):
+    # def isPalindrome(self, x):
         """
         :type x: int
         :rtype: bool
@@ -31,10 +32,12 @@ class Solution(object):
 
 
 def main():
-    print(Solution().isPalindrome(-2147483648))     # False
-    print(Solution().isPalindrome(23432))           # True
-    print(Solution().isPalindrome(234432))           # True
-    print(Solution().isPalindrome(1000021))           # False
+    test(False, Solution().isPalindrome(-6))
+    test(True, Solution().isPalindrome(6))
+    test(False, Solution().isPalindrome(-2147483648))
+    test(True, Solution().isPalindrome(23432))
+    test(True, Solution().isPalindrome(234432))
+    test(False, Solution().isPalindrome(1000021))
 
 
 # LC input
